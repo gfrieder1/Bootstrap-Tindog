@@ -135,3 +135,29 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+#cta {
+  padding: 5% 15%;
+  text-align: center;
+  color: white;
+  background-color: #ff4c68;
+}
+
+#footer {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: white;
+}
+
+.socials-div {
+  margin-bottom: 10px;
+}
+
+.social-button {
+  color: black;
+}
+
+.social-icon {
+  padding: 10px;
+}
