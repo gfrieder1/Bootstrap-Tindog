@@ -5,6 +5,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -13,16 +14,17 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
+}
+
+h2 {
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: "Montserrat-Bold", sans-serif;
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
@@ -31,13 +33,17 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-#title {
+.color-bg {
   background-color: #ff4c68;
   color: white;
-  height: 60%;
+}
+
+.white-bg {
+  background-color: white;
+  color: black;
 }
 
 /* Navigation Bar */
@@ -61,13 +67,19 @@ p {
   font-family: "Montserrat-Light", sans-serif;
 }
 
-/* Download Buttons */
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Image */
 
 .iphone-div {
   position: relative;
@@ -81,14 +93,13 @@ p {
   left: 20%
 }
 
+/* Features */
+
 #features {
-  padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -101,10 +112,10 @@ p {
   color: #ff4c68;
 }
 
+/* Testimonials Section */
+
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-img {
@@ -112,9 +123,10 @@ p {
   border-radius: 50%
 }
 
+/* Press Section */
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -123,31 +135,27 @@ p {
   margin: 20px 20px 50px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
+/* Pricing Section */
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
+/* Call to Action */
+
 #cta {
   padding: 5% 15%;
-  text-align: center;
-  color: white;
-  background-color: #ff4c68;
 }
+
+/* Footer Section */
 
 #footer {
   padding-top: 4%;
   padding-bottom: 3%;
-  text-align: center;
-  background-color: white;
 }
 
 .socials-div {
